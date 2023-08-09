@@ -43,13 +43,14 @@ function atualizainterface(){
 
 
 function clicou(n){
-    let elNumero = document.querySelector('numero.pisca');
+    let elNumero = document.querySelector('.numero.pisca');
     if (elNumero !== null) {
-        numero.innerHTML = n;
+        elNumero.innerHTML = n;
         numero = `${numero} ${n}`;
 
         elNumero.classList.remove('pisca');
         elNumero.nextElementSibling.classList.add('pisca');
+
     }
 }
 function branco(){
