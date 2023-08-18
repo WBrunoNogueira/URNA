@@ -14,6 +14,7 @@ let numeros = s('.divisao-1-3');
 let etapaAtual = 0;
 let numero = '';
 let votoBranco = false;
+let votos = [];
 
 /// limpar a tela, pega a insformaçoes do jason, preenche o restante
 function comecarEtapa(){
@@ -21,6 +22,7 @@ function comecarEtapa(){
     let numeroHTML = '';
     numero = '';
     votoBranco = false;
+    
 
     for (let i = 0;  i < etapa.numeros; i++) {
         if (i === 0) {
@@ -73,8 +75,6 @@ function atualizaInterface(){
     }
 
 }
-
-
 function clicou(n){
     let elNumero = document.querySelector('.numero.pisca');
         if (elNumero !== null) {
@@ -89,7 +89,6 @@ function clicou(n){
         }
     }
 }
-
 function branco(){
     numero.innerHTML = '';
     votoBranco = true;
@@ -110,19 +109,25 @@ function confirma(){
 
     if (votoBranco === true) {
         votoConfirmado = true;
-        console.log('confirmado BRANCO');
+        votos.push({
+            etapa: etapas[etapaAtual].titulo,
+            voto: 'BRANCO'
+        });
     }else if (numero.length === etapa.numeros) {
         votoConfirmado = true;
-            console.log('confirmado como ' + numero);
+        votos.push({
+            etapa: etapas[etapaAtual].titulo,
+            voto: numero
+        });
     }
     if (votoConfirmado) {
         etapaAtual++;
         if (etapas[etapaAtual] !== undefined) {
             comecarEtapa();
         }else{
-            console.log('fim');
+            document.querySelector('.tela').innerHTML =  '<div class="aviso-gigante pisca">FIM</div> ';
+            console.log(votos);
         }
     }
 }
-
 comecarEtapa();
