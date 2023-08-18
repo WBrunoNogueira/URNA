@@ -5,7 +5,7 @@ let etapas = [
         candidatos: [
             {
                 numero: '38111',
-                nome: 'Fulano de Tal',
+                nome: 'swannerger',
                 partido: 'ABC',
                 fotos:[
                     {url:'38111.jpg', legenda: 'Vereador'}
@@ -13,7 +13,7 @@ let etapas = [
             },
             {
                 numero: '77222',
-                nome: 'Beltrano da Silva',
+                nome: 'Caramelo',
                 partido: 'DEFG',
                 fotos:[
                     {url:'77222.jpg', legenda: 'Vereador'}

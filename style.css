@@ -21,8 +21,8 @@ body{
     display: flex;
 }
 .tela{
-    width: 500px;
-    height: 320px;
+    width: 560px;
+    height: 350px;
     background: linear-gradient(to right, #e8e8e8, #c1c1c1); /*gradiente a direita */
     border: 5px solid #555;
     display: flex;
@@ -123,10 +123,11 @@ body{
 }
 /*divisão da imagesn*/
 .divisao-1-direita{
-    width: 150px;
+    width: 116px;
     display: flex;
     flex-direction: column;
     align-items: end;
+    flex: 1;
     
 }
 .divisao-1-image{
@@ -134,13 +135,14 @@ body{
     background-color: #ffff;
     text-align: center;
     font-size: 14px;
+    width: 66%;
 
 }
 .divisao-1-image img{
     width: 100%;
 }
-.divisao-1-image.pequeno{
-    width: 80%;
+.pequeno{
+    width: 58%;
     font-size: 12px;
 }
 .divisao-2{
