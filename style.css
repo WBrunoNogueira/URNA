@@ -12,6 +12,7 @@ body{
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     
+    background: #403a3a;
     height: auto;
     height:100vh;
 }
@@ -165,3 +166,4 @@ body{
     align-items: center;
 
 }
+
