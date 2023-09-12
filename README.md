@@ -11,24 +11,25 @@ Projeto de estudo, criação de um sistema simulativo de urna eletronica.
 
 
 ## Como Usar
-1. Escolha as opções de candidatos digitando os numeros no teclado da urna virtual ou vote em branco:
+- Escolha as opções de candidatos digitando os numeros no teclado da urna virtual ou vote em branco:
 
-    - PARA VEREADOR
-      -  numero: 38111
-      -  nome: swannerger
-  
-      - numero: '77222'
-      - nome: Caramelo
+## Vereador
 
-    - PARA PREFEITO
-      - numero: 99
-      - nome: Ciclano
- 
-      - numero: 84
-      - nome: Zulano
+| Nome | Número |
+| ------ | ------ |
+| Schwarzenegger | 38111 |
+| Caramelo | 77222 |
 
-2. Confirme o numeros do votos ou corrija seu voto.
-3. finalizado
+## Prefeito
+
+| Nome | Número |
+| ------ | ------ |
+| Zeca Urubu & Rick Astle | 99 |
+| Xandão & Caneta Azul | 84 |
+
+
+- Confirme os numeros dos seus votos ou aperte 'corrija' seu voto.
+- Ao concluir tecle 'finalizado'.
 
 --
 
