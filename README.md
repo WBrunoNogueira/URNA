@@ -16,14 +16,14 @@ Projeto de estudo, criação de um sistema simulativo de urna eletronica.
 titulo: 'VEREADOR
   numero: '38111'
   nome: 'swannerger'
---
+  
   numero: '77222'
   nome: 'Caramelo'
 
 titulo: 'PREFEITO'
  numero: '99'
  nome: 'Ciclano'
- --
+ 
  numero: '84'
  nome: 'Zulano'
 
