@@ -29,10 +29,5 @@ Projeto de estudo, criação de um sistema simulativo de urna eletronica.
 
 
 - Confirme os numeros dos seus votos ou aperte 'corrija' seu voto.
-- Ao concluir tecle 'finalizado'.
+- Ao concluir tecle 'Confirma'.
 
---
-
-1. Faça o clone deste repositório.
-2. Abra o arquivo `index.html` no seu navegador.
-(Link de acesso)[https://wbrunonogueira.github.io/URNA/]
